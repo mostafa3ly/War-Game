@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+}
+body, html {
+    font-family: Stencil Std, fantasy;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .container{
+
+    width: 650px;
+    margin: 150px auto;
+
+  }
+
+  
+  .block {
+    position: absolute;
+    float: left;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width:650px;
+    height: 320px;
+    padding: 30px;
+    background-color: rgba(20, 30, 10, 0.2);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  h1 {
+      margin: 0;
+      letter-spacing: 3px;
+      word-spacing: 5px;
+      font-size: 50px;
+      color: white;
+  }
+
+  h3 {    
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 20px;
+    color: #ffcc00;  
+}
+
+button{
+ 
+  font-family: modak,Stencil Std, fantasy;
+  border-radius: 4px;
+  background-color: #cf962b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 15px;
+}
+
+button span {
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover span {
+  padding-right: 20px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ }
+
+ .footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .footer:hover{
+   transition: all 0.3s ease-in-out;
+   background-color: rgba(255, 255, 255, 0.8) ;
+   
+
+ }
+ .footer:hover p{
+  transition: all 0.3s ease-in-out;
+  color: black;
+  
+ }

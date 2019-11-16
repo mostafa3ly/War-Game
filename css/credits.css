@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container{
+margin:150px auto;
+  width: 1000px;
+text-align: center;
+}
+
+.block{
+  float: left;
+  width: 250px;
+  }
+
+  h4{
+  width: 180px;
+  margin: 10px auto;
+  font-size: 15px;
+  padding: 4px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+

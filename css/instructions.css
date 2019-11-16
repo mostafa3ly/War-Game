@@ -1,0 +1,139 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .clear{
+    clear: both;
+}
+
+  #container{
+      overflow: auto;
+      width: 1000px;
+      height: 950px;
+      margin: 5px auto;
+      background-color: rgba(20, 30, 10, 0.4);
+      padding: 0 35px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+
+  #keyboard-section
+{
+    float: left;
+}
+
+  #container p{
+      color: white;
+      font-family: tahoma;
+      font-size: 20px;
+      font-weight: bold;
+
+  }
+  #container #up, #container #down{
+      margin-left: 180px;
+  }
+  #container #keyboard{
+      float: left;
+      margin: 0 10px;
+  }
+  #container #left, #container #right{
+      float: left;
+      margin-top: 115px;
+  }
+
+
+
+  #container #mouse-section{
+      float: right;
+      margin:60px;
+  }
+  #container #cursor{
+      float: left;
+      margin: 10px 30px;
+  }
+  #container hr{
+      margin: 0;
+      padding: 0;
+  }
+  #mouse-section div{
+      float: left;
+  }
+  #mouse-section #mouse
+  {
+      float: right;
+  }
+#mouse-section p{
+    margin: 35px;
+}
+.instructions{
+    margin: 5px auto;
+    width: 1000x;
+    text-align: center;
+}
+
+h3,span{
+    margin-bottom: 5px;
+    color: white;
+    font-family: tahoma;
+  
+    font-size: 25px;
+}
+span{
+    padding: 0 50px;
+}
+.instructions hr#green{
+    margin: 10px 0;
+    display: inline-block;
+    height: 5px;
+    width: 90px;
+    border: none;
+    background-color: #0a0;
+}
+.instructions hr#red
+{
+    margin: 10px 0;
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    border: none;
+    background-color: #a00;
+
+}
+
+
+.instructions img{
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+
+button
+{
+    transition: all .5s ease;
+    color: white;
+    float: right;
+    border: 3px solid white;
+    font-family: tahoma;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    background-color : transparent;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,28 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container {
+    margin: 10px auto;
+    background: white url("../images/background.jpg") repeat-x 0 0;
+    width: 1500px;
+    border-radius: 5px;
+    border: 1px solid white;
+    animation: move 20s linear infinite;
+    position: relative;
+    cursor: url(../images/aim.cur) , crosshair;
+  }
+
+
+ 
+  @keyframes move {
+      from { background-position: 0 0; }
+      to { background-position: -1350px 0; }
+  }
+
+
+ 
