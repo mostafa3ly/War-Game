@@ -17,7 +17,7 @@ bullet.src = "../images/fire.png";
 heart.src = "../images/heart.png";
 fuel.src = "../images/fuel.png";
 
-var gameAudio = new Audio('../sounds/war.mp3');
+
 
 
 var fuelX;
@@ -134,13 +134,10 @@ if(event.code=="Space"){
 	location.reload();
 }
 }
- function playAudio()
- {
-	gameAudio.play();
- }
+
 
 function draw() {
-	playAudio()
+	
 	
 	context.clearRect(0, 0, canvas.width, canvas.height)
 
